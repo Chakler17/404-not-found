@@ -1,0 +1,129 @@
+:root {
+  --color-white: #ffffff;
+  --color-black: #333333;
+  --color-gray-light: #bdbdbd;
+  --color-gray-dark: #4f4f4f;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: initial;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 2rem;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+header h1 {
+  font-family: "Inconsolata", monospace;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  letter-spacing: -0.2rem;
+  color: var(--color-black);
+}
+
+main {
+  font-family: "Space Mono", monospace;
+  text-align: center;
+  margin: 6.5rem auto;
+}
+
+.scarecrow {
+  height: 23.8rem;
+  width: 28.683rem;
+}
+
+.main__info {
+  text-align: left;
+}
+
+.main__info h2 {
+  font-size: 4.8rem;
+  font-weight: 700;
+  letter-spacing: -0.146rem;
+  color: var(--color-black);
+}
+
+.main__info p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--color-gray-dark);
+  margin: 3rem 0rem 6.6rem 0rem;
+}
+
+.main__boton {
+  background-color: var(--color-black);
+  padding: 2.4rem 4.3rem;
+  color: var(--color-white);
+  text-transform: uppercase;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.main__boton:hover {
+  background-color: #000;
+}
+
+footer {
+  color: var(--color-gray-light);
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin: 13.7rem 0rem 0rem 0rem;
+}
+
+footer a {
+  color: var(--color-gray-light);
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+/* Desktop */
+
+@media (min-width: 1440px) {
+  body{
+    padding: 4rem 7.7rem;
+  }
+  main {
+    display: flex;
+    align-items: center;
+    margin: 20rem auto;
+    max-width: max-content;
+  }
+
+  .main__info h2 {
+    font-size: 6.4rem;
+    width: 58.6rem;
+  }
+
+  .main__info p {
+    font-size: 2.4rem;
+    width: 38.1rem;
+    letter-spacing: -.035rem;
+  }
+
+  .scarecrow {
+    height: 44.7rem;
+    width: 53.9rem;
+    margin: 0rem 11rem 0rem 0rem;
+  }
+
+}
