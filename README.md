@@ -70,6 +70,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://{github.com/Chakler17)
-- GitHub [@your-username](https://{github.com/Chakler17)
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- GitHub [@Chakler17](https://github.com/Chakler17)
+- Twitter [@ferneyap17](https://twitter.com/ferneyap17)
